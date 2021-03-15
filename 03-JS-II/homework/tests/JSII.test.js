@@ -78,18 +78,18 @@ describe('colors(color)', function() {
   });
 });
 
-describe('esDiezOCinco(num)', function() {
-  it('should return true if num is 10 or 5', function() {
-    expect(esDiezOCinco(10)).toBe(true);
-    expect(esDiezOCinco(5)).toBe(true);
-  });
-  it('should return false if num is not 10 or 5', function() {
-    expect(esDiezOCinco(11)).toBe(false);
-    expect(esDiezOCinco(6)).toBe(false);
-    expect(esDiezOCinco(0)).toBe(false);
-    expect(esDiezOCinco(5.01)).toBe(false);
-  });
-});
+//describe('esDiezOCinco(num)', function() {
+  //it('should return true if num is 10 or 5', function() {
+    //expect(esDiezOCinco(10)).toBe(true);
+    //expect(esDiezOCinco(5)).toBe(true);
+  //});
+  //it('should return false if num is not 10 or 5', function() {
+    //expect(esDiezOCinco(11)).toBe(false);
+    //expect(esDiezOCinco(6)).toBe(false);
+    //expect(esDiezOCinco(0)).toBe(false);
+    //expect(esDiezOCinco(5.01)).toBe(false);
+  //});
+//});
 
 describe('estaEnRango(num)', function() {
   it('should return true if num is inside range', function() {
